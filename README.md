@@ -24,4 +24,4 @@ MIT
 
 ## Copyright
 
-Copyright (c) 2009 David Dollar. See LICENSE for details.
+Copyright (c) 2009 David Dollar
