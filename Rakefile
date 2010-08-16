@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'rake'
 
+$:.unshift File.expand_path("../lib", __FILE__)
 require 'gem/commands/whois_command'
 
 begin
