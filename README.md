@@ -6,7 +6,7 @@ Show information about the owner of a gem.
 
      $ gem install gem-whois
 
-Usage
+## Usage
 
     $ gem whois gem-whois
 
