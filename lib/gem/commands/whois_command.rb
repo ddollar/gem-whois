@@ -6,6 +6,8 @@ require 'rest-client'
 
 class Gem::Commands::WhoisCommand < Gem::Command
 
+  VERSION = "0.2"
+
   def initialize
     super 'whois', 'Show information about the owner of a gem'
   end

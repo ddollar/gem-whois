@@ -1,10 +1,13 @@
 require 'rubygems'
 require 'rake'
 
+require 'gem/commands/whois_command'
+
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "gem-whois"
+    gem.version = Gem::Command::WhoisCommand::VERSION
     gem.summary = %Q{Show information about the owner of a gem}
     gem.email = "<ddollar@gmail.com>"
     gem.homepage = "http://github.com/ddollar/gem-whois"
