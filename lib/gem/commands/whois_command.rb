@@ -2,7 +2,6 @@ require 'rubygems/command'
 require 'rubygems/command_manager'
 require 'rubygems/uninstaller'
 require 'crack'
-require 'rest-client'
 
 class Gem::Commands::WhoisCommand < Gem::Command
 
@@ -13,6 +12,7 @@ class Gem::Commands::WhoisCommand < Gem::Command
   end
 
   def execute
+    require 'rest-client'
     name = get_one_gem_name
     Gem.sources.each { |source| whois_from_source(name, source) }
   rescue Exception => ex
