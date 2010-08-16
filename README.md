@@ -18,10 +18,10 @@ Usage
     downloads : 0
     homepage  : http://github.com/ddollar/gem-whois
 
-== License
+## License
 
 MIT
 
-== Copyright
+## Copyright
 
 Copyright (c) 2009 David Dollar. See LICENSE for details.
