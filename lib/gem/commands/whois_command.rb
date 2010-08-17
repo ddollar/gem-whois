@@ -5,7 +5,7 @@ require 'crack'
 
 class Gem::Commands::WhoisCommand < Gem::Command
 
-  VERSION = "0.2"
+  VERSION = "0.3"
 
   def initialize
     super 'whois', 'Show information about the owner of a gem'
