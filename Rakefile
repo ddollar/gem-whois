@@ -8,7 +8,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "gem-whois"
-    gem.version = Gem::Commands::WhoisCommand::VERSION
+    gem.version = "0.3"
     gem.summary = %Q{Show information about the owner of a gem}
     gem.email = "<ddollar@gmail.com>"
     gem.homepage = "http://github.com/ddollar/gem-whois"
