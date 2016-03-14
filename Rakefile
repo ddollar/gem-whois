@@ -14,6 +14,7 @@ begin
     gem.homepage = "http://github.com/ddollar/gem-whois"
     gem.authors = ["David Dollar"]
     gem.files = Dir['lib/**/*.rb']
+    gem.add_dependency 'crack', '~> 0.4.3'
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
